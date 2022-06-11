@@ -105,24 +105,7 @@ input[type=button] {
   color: rgba(38, 38, 38, 0.65);
 }
 
-@media only screen and (min-width: 2000px) {
-  .user-icons .material-icons-outlined {
-    font-size: 2.55rem;
-  }
-  .primary-heading,
-  .secondary-heading {
-    font-size: 2.85rem;
-  }
-
-  .btn-primary {
-    font-size: 1.65rem;
-  }
-  .btn-primary:hover {
-  font-size: 1.60rem;
-}
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   .btn-primary {
     font-size: 0.8rem;
   }
@@ -191,23 +174,6 @@ input[type=button] {
 
 .user-icons a {
   padding-left: 1.355rem;
-}
-
-@media only screen and (min-width: 2000px) {
-  .logo {
-    font-size: 3rem;
-  }
-
-  #header-section nav ul li {
-    margin-left: 2.5rem;
-  }
-  #header-section .header-content {
-    height: 7rem;
-    padding: 0 1.85rem;
-  }
-  .link {
-    font-size: 1.75rem;
-  }
 }
 
 @media only screen and (max-width: 780px) {
@@ -286,14 +252,7 @@ input[type=button] {
   background-color: hsl(349, 82.6%, 70.8%);
 }
 
-@media only screen and (min-width: 2000px) {
-  #banner {
-    height: 50rem;
-    background-position: center;
-  }
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   #banner {
     height: 30rem;
   }
@@ -337,7 +296,7 @@ input[type=button] {
   margin: auto;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   #content-description-section {
     padding: 2.5rem;
   }
@@ -424,7 +383,7 @@ input[type=button] {
   background-color: rgba(242, 41, 78, 1);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   .flower-subscription-features {
     flex-direction: column;
     margin-bottom: 3.5rem;
@@ -461,7 +420,7 @@ li.merch {
   text-align: left;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:550px) {
   .merch .details p {
     font-size: 0.9rem;
   }
@@ -532,7 +491,7 @@ ul.all-team .team {
   }
   
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   ul.all-team .team {
     flex: 100%;
     max-width: 100%;
@@ -627,12 +586,11 @@ ul.footer-navbar {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  gap: 1.85rem;
   margin-bottom: 0.5rem;
 }
 
-ul.footer-navbar li {
-  padding: 0.3rem 0;
+ul.footer-navbar li:not(:last-child) {
+  margin-right: 0.8rem
 }
 
 ul.footer-navbar li .link {
@@ -643,7 +601,7 @@ ul.footer-navbar li .link {
   font-size: 0.9rem;
   color: #F2E9EB;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   footer p {
     font-size: 1rem;
   }
@@ -664,10 +622,5 @@ ul.footer-navbar li .link {
   input[type=button],
   input[type=email] {
     font-size: 1rem;
-}
-
-  ul.footer-navbar {
-    gap: 0.9rem;
   }
-
 }
