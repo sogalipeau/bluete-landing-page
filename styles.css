@@ -160,11 +160,10 @@ input[type=button] {
 
 .link {
   font-size: 1.2rem;
-  transition: 3s;
 }
 
-.link:hover {
-  font-weight: 600; 
+.navlink:hover {
+  color: rgba(242, 41, 78, 0.85);
 }
 
 .user-icons {
@@ -331,6 +330,12 @@ input[type=button] {
 
 .how-it-works-banner .description h2 {
   padding: 1.15rem 0.7rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .how-it-works-banner {
+    height: 22rem;
+  }
 }
 
 /* Flower subscription section
