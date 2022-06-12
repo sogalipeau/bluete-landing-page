@@ -52,16 +52,12 @@ b {
   font-weight: normal;
 }
 
-input {
-  border-radius: 0;
-  -webkit-appearance: none;
-}
-
-
 button,
 input[type=submit],
 input[type=button] {
   cursor: pointer;
+  border-radius: 0;
+  -webkit-appearance: none;
 }
 
 
@@ -435,7 +431,7 @@ li.merch {
 
 @media only screen and (max-width:550px) {
   .merch .details p {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
   }
 }
 /* Meet the team
