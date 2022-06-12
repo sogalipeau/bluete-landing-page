@@ -480,6 +480,7 @@ ul.all-team .team {
   border-color: rgba(242, 41, 78, 0.85) rgba(242, 102, 139, 0.5);
   padding: 0.8rem 0.5rem;
   font-size: 0.7rem;
+  color: #262626;
   transition: .5s;
 }
 
