@@ -52,11 +52,19 @@ b {
   font-weight: normal;
 }
 
+input {
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+
 button,
 input[type=submit],
 input[type=button] {
   cursor: pointer;
 }
+
+
 
 .img-container {
   overflow: hidden;
