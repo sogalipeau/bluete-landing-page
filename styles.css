@@ -144,7 +144,7 @@ input[type=button] {
   justify-content: space-between;
   align-items: center;
   height: 5rem;
-  padding: 0 1.15rem;
+  padding: 0 1.35rem;
 }
 
 #header-section nav ul {
@@ -194,7 +194,7 @@ input[type=button] {
 @media only screen and (max-width: 550px) {
   #header-section .header-content {
     height: 3.25rem;
-    padding: 0 0.35rem;
+    padding: 0 0.55rem;
   }
   #header-section .logo {
     font-size: 1.15rem;
